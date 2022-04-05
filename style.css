@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #ecf0f3;
+    font-family:sans-serif;
+    outline:none;
+}
+body{
+    background:skyblue;
+}
+.wrap{
+    width: 1000px;
+    margin:auto;
+    margin-top: 100px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.651);
+    transition: 0.4s;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 30px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.651)
+}
+.container{
+    padding:2px 16px;
+}
